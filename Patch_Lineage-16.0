@@ -1,0 +1,143 @@
+Lineage 16.0
+
+git fetch https://github.com/LineageOS/android_bionic refs/changes/67/223067/7 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_build refs/changes/33/222733/12 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_build refs/changes/60/222760/15 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_build refs/changes/91/229491/4 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_build_soong refs/changes/13/224613/4 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_build_soong refs/changes/11/229411/1 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_dalvik refs/changes/75/225475/1 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_dalvik refs/changes/76/225476/1 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_external_perfetto refs/changes/13/223413/1 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_external_tinycompress refs/changes/14/229414/2 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/36/226236/61 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/54/225754/81 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/82/225582/54 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/08/227108/40 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/15/226615/43 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/22/227822/1 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/30/229230/36 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/16/230016/26 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/46/224446/10 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/13/224513/6 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/16/221716/60 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_frameworks_native refs/changes/43/224443/4 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_frameworks_native refs/changes/46/225546/5 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_hardware_qcom_audio refs/changes/93/222693/4 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_audio refs/changes/94/222694/4 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_audio refs/changes/38/223338/3 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_audio refs/changes/17/225117/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_audio refs/changes/18/225118/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_audio refs/changes/46/223446/3 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_audio refs/changes/47/223447/3 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_audio refs/changes/48/223448/3 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_audio refs/changes/49/223449/3 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_audio refs/changes/50/223450/3 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_audio refs/changes/51/223451/3 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_audio refs/changes/52/223452/3 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_audio refs/changes/14/225714/2 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_hardware_qcom_display refs/changes/44/223444/1 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_display refs/changes/45/223445/2 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/51/223351/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/52/223352/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/53/223353/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/54/223354/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/55/223355/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/56/223356/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/57/223357/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/58/223358/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/59/223359/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/60/223360/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/34/225034/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/61/223361/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/62/223362/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/63/223363/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/64/223364/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/65/223365/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/66/223366/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/67/223367/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/68/223368/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/69/223369/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/70/223370/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/71/223371/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/72/223372/2 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_hardware_qcom_media refs/changes/42/223442/2 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_hardware_qcom_power refs/changes/13/230513/3 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_hardware_qcom_wlan refs/changes/38/226638/1 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_hardware_qcom_wlan refs/changes/43/226643/1 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_lineage-sdk refs/changes/81/225581/6 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_lineage-sdk refs/changes/31/227931/4 && git cherry-pick FETCH_HEAD
++
+git fetch https://github.com/LineageOS/android_packages_apps_Camera2 refs/changes/52/224752/6 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_packages_apps_Camera2 refs/changes/65/225265/5 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_packages_apps_DeskClock refs/changes/31/226131/2 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_packages_apps_DocumentsUI refs/changes/89/225289/1 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_packages_apps_LineageParts refs/changes/30/227930/4 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_packages_apps_LineageParts refs/changes/56/221756/7 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_packages_apps_Settings refs/changes/48/226148/25 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_packages_apps_Settings refs/changes/42/226142/29 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_packages_apps_Settings refs/changes/50/226150/25 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_packages_apps_Settings refs/changes/51/226151/25 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_packages_apps_Settings refs/changes/54/226154/33 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_packages_apps_Settings refs/changes/55/225755/31 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_packages_apps_Settings refs/changes/56/225756/34 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_packages_apps_Settings refs/changes/20/227120/19 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_packages_apps_Settings refs/changes/79/229479/6 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_packages_apps_Settings refs/changes/29/227929/11 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_packages_apps_SettingsIntelligence refs/changes/19/230519/1 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_system_bt refs/changes/22/225422/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_system_bt refs/changes/45/223945/3 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_system_bt refs/changes/23/225423/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_system_bt refs/changes/13/224813/4 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_system_core refs/changes/85/223085/6 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_system_core refs/changes/00/223500/5 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_system_core refs/changes/64/224264/2 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_system_sepolicy refs/changes/48/223748/7 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_vendor_lineage refs/changes/08/229508/13 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_vendor_lineage refs/changes/12/229412/18 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_vendor_lineage refs/changes/15/229415/22 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_vendor_lineage refs/changes/05/229505/15 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_vendor_lineage refs/changes/89/229589/6 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_vendor_lineage refs/changes/90/229590/6 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_vendor_qcom_opensource_cryptfs_hw refs/changes/28/226128/4 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_vendor_qcom_opensource_cryptfs_hw refs/changes/29/226129/4 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_vendor_qcom_opensource_cryptfs_hw refs/changes/30/226130/4 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_vendor_qcom_opensource_cryptfs_hw refs/changes/03/226403/3 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_vendor_qcom_opensource_cryptfs_hw refs/changes/71/230271/2 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_build refs/changes/19/226919/3 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_build refs/changes/37/226537/5 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_build refs/changes/13/227213/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_build refs/changes/20/226920/8 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_build refs/changes/39/226939/6 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_system_core refs/changes/17/226917/1 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_system_core refs/changes/23/226923/1 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_build_soong refs/changes/18/226918/1 && git cherry-pick FETCH_HEAD
+
+git fetch https://github.com/LineageOS/android_system_libvintf refs/changes/22/226922/1 && git cherry-pick FETCH_HEAD
